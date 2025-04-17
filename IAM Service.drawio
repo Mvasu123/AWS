@@ -1,0 +1,84 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.13">
+  <diagram name="Page-1" id="sKcfnlEbor1COFYJiYnG">
+    <mxGraphModel dx="905" dy="458" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ciUbto8o2OMb1rLSAugL-15" value="Group-Deploy" style="rounded=1;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="556" y="185" width="314" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ciUbto8o2OMb1rLSAugL-2" value="&lt;h3&gt;ROOT USER&lt;/h3&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="464" y="68" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ciUbto8o2OMb1rLSAugL-3" value="IAM USER1" style="rounded=1;whiteSpace=wrap;html=1;spacingTop=1;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="150" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ciUbto8o2OMb1rLSAugL-4" value="IAM USER2" style="rounded=1;whiteSpace=wrap;html=1;spacingTop=1;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="390" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ciUbto8o2OMb1rLSAugL-5" value="IAM USER3" style="rounded=1;whiteSpace=wrap;html=1;spacingTop=1;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="571" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ciUbto8o2OMb1rLSAugL-6" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="130" as="sourcePoint" />
+            <mxPoint x="200" y="190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="160" />
+              <mxPoint x="800" y="160" />
+              <mxPoint x="200" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ciUbto8o2OMb1rLSAugL-7" value="" style="endArrow=none;html=1;rounded=0;entryX=0.416;entryY=0.047;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="ciUbto8o2OMb1rLSAugL-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="160" as="sourcePoint" />
+            <mxPoint x="440" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ciUbto8o2OMb1rLSAugL-8" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="800" y="159" as="sourcePoint" />
+            <mxPoint x="800" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ciUbto8o2OMb1rLSAugL-9" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;POLICY-admin access&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="90" y="202" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ciUbto8o2OMb1rLSAugL-10" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;ROLE-&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;Developer&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="202" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ciUbto8o2OMb1rLSAugL-11" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Policies--&lt;br&gt;CreateEC2Instance,Read/Write S3 Bucket&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="292.5" y="300" width="135" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="ciUbto8o2OMb1rLSAugL-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="ciUbto8o2OMb1rLSAugL-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="260" as="sourcePoint" />
+            <mxPoint x="440" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ciUbto8o2OMb1rLSAugL-16" value="&lt;br&gt;&lt;div&gt;Policy: write S# buckets&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="651" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ciUbto8o2OMb1rLSAugL-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710.5" y="305" as="sourcePoint" />
+            <mxPoint x="710.5" y="345" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ciUbto8o2OMb1rLSAugL-18" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="159" as="sourcePoint" />
+            <mxPoint x="630" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ciUbto8o2OMb1rLSAugL-19" value="IAM USER4" style="rounded=1;whiteSpace=wrap;html=1;spacingTop=1;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="730" y="197" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ciUbto8o2OMb1rLSAugL-22" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Roles can be attached to AWS services such as EC2,Lambda so that we do not need to provide our credentials to our services&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="461" width="860" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
